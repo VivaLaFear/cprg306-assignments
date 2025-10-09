@@ -4,9 +4,9 @@ export default function Page() {
   return (
     <main>
       <header>
-        <h1 className="text-5xl">Counter</h1>
+        <h1 className="text-5xl">Week 5 - New Item</h1>
       </header>
-      <newItem />
+      <NewItem />
     </main>
   );
 }
