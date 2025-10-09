@@ -1,6 +1,8 @@
 'use client'
 import React, { use, useState } from "react"
 
+// STILL HAVE TO MAKE THIS THING POP UP THE NEW ITEM IN A WINDOW
+
 export default function NewItem() {
   const [quantity, setQuantity] = useState(1)
   const [name, setName] = useState("")
